@@ -13,8 +13,8 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # CHANGE ONLY THESE TWO LINES
-SECRET = "balaguru2025secret"          # ← remember this exact word
-GEMINI_API_KEY = "PUT_YOUR_REAL_GEMINI_KEY_HERE"   # ← paste your key here
+SECRET = "balaguru9345"          # ← remember this exact word
+GEMINI_API_KEY = "AIzaSyApUV3B2qJtTMEzhWr6JrmIrXytC_bQdW4"   # ← paste your key here
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
